@@ -7,7 +7,7 @@ import (
 )
 
 func Outa() {
-    message := badpkg.Hello("badpkga")
+    message := badpkg.Hello("badpkga v1.0.0")
     fmt.Println(message)
 }
 
